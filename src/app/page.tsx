@@ -1,4 +1,5 @@
 "use client"
+import UserList from "@/components/Usuario/ItemUsuario";
 import CrearItemUsuario from "@/components/Usuario/crearItemUsuario";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
@@ -13,8 +14,8 @@ export default function Home() {
   return (
     <div className="grid grid-cols-6 mr-80 ml-80 mt-20 gap-4 space-x-20">
       <CrearItemUsuario />
-      
-      
+
+      <UserList />
     </div>
   );
 }
